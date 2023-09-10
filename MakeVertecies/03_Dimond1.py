@@ -11,8 +11,8 @@ bo = -1
 inc = True
 y = -thicknes_in_y*2/3+r
 
-center_x=0.5+0.125
-center_y=1-0.125
+center_x=0.5+0.125 
+center_y=0.5+0.125 
 #1
 res = "Vertex{glm::vec3(%sf, %sf, %sf), glm::vec3(%sf, %sf, %sf), glm::vec3(%sf, %sf, %sf), glm::vec2(%sf, %sf)},"%(0.0,y,0.0,255.0,255.0,255.0,0.0,y,0.0,center_x,center_y)
 y = -thicknes_in_y/2+r

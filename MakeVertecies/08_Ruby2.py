@@ -15,8 +15,8 @@ number_of_dots = 4
 r = -0.100 # distance from center of bracelet
 thicknes_in_r=0.015 # radius in in Ruby in first circle
 max_tick_ness_in_r=0.015 # max radius in in Ruby in all circle
-center_x=0.75+0.125 #location of texture for x
-center_y=0.75-0.125 #location of texture for y
+center_x=0.5+0.125 #location of texture for x
+center_y=0.5+0.125 #location of texture for y
 
 x=0
 allocate_y=0.0+r

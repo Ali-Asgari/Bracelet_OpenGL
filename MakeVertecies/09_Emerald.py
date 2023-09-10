@@ -16,8 +16,8 @@ number_of_dots = 10
 r = 0.100 # distance from center of bracelet
 thicknes_in_r=0.01 # radius in in Emerald in first circle
 max_tick_ness_in_r=0.01 # max radius in in Emerald in all circle
-center_x=0.75+0.125 #location of texture for x
-center_y=0.25+0.125 #location of texture for y
+center_x=0.5+0.125 #location of texture for x
+center_y=0.5-0.125 #location of texture for y
 
 x=0
 allocate_y=0.0+r

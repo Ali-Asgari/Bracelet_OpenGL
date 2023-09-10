@@ -16,8 +16,8 @@ number_of_dots = 10
 r = -0.100
 thicknes_in_r=0.01
 max_tick_ness_in_r=-0.01
-center_x=0.75+0.125
-center_y=0.75+0.125
+center_x=0.75-0.125
+center_y=0.0+0.125
 
 x=0
 allocate_y=0.0+r
