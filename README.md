@@ -3,7 +3,7 @@ A simple template for fast implementation of OpenGL, GLAD, and GLFW in C++. It i
 Utilized Python programs to generate vertecies information include position, color, texture coordinate. 
 
 <p align="center">
-    <img src="./ezgif-2-6b502591be.gif" alt="drawing"/>
+    <img src="./result.gif" alt="drawing"/>
 </p>
 
 ## Usage
