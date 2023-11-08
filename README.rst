@@ -58,7 +58,7 @@ GLSL codes:
 	else{
 	    // Dose not draw edge for rings
 	    discard;
-    }
+        }
     }
 
 render edges of jewels codes:
