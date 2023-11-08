@@ -50,8 +50,7 @@ After blending and before drawing edges:
 GLSL codes:
 
 .. code-block:: c++
-
-	if (isEdge == 1.0){
+    if (isEdge == 1.0){
 		if (result.a < 1.0){
 			FragColor = vec4(result.xyz+0.3,result.a);
 		}
@@ -60,7 +59,6 @@ GLSL codes:
 			discard;
         }
     }
-
 
 render edges of jewels codes:
 
