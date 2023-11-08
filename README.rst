@@ -21,6 +21,7 @@ Before blending:
 After enabling of blending and set alpha value for jewels
 
 glsl codes:
+
 .. code-block:: c++
 
 	if (initColor.a<0.99){
