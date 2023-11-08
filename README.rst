@@ -20,7 +20,7 @@ Before blending:
 
 After enabling of blending and set alpha value for jewels
 
-glsl codes:
+GLSL codes:
 
 .. code-block:: c++
 
@@ -32,7 +32,7 @@ glsl codes:
 		return vec4((initColor * (diffuse * inten + ambient +specular*10.0 * inten)).rgb,initColor.a);
 	}
 
-enable blending and blend function codes:
+Enable blending and blend function codes:
 
 .. code-block:: c++
 
@@ -42,7 +42,7 @@ enable blending and blend function codes:
 
 
 
-Before drawing edges:
+After blending and before drawing edges:
 -----
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/before_edge.png
 
