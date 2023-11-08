@@ -25,4 +25,3 @@ Utilized Python programs to generate vertecies information include position, col
 ## Usage
 Open solution file in Visual Studio or compile it with terminal.
 
-.. image:: https://ali-asgari.github.io/assets/images/Neuroscience.png
