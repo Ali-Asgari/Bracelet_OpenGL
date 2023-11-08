@@ -32,7 +32,7 @@ glsl codes:
 		return vec4((initColor * (diffuse * inten + ambient +specular*10.0 * inten)).rgb,initColor.a);
 	}
 
-enable blending codes:
+enable blending and blend function codes:
 
 .. code-block:: c++
 
@@ -46,6 +46,14 @@ Before drawing edges:
 -----
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/before_edge.png
 
+render edges of jewels codes:
+
+.. code-block:: c++
+
+    glUniform1f(glGetUniformLocation(shader.ID, "uisEdge"), 1.0);
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0);
+    
 After drawing edges:
 -----
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/after_edge.png
