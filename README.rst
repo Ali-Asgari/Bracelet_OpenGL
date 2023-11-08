@@ -9,8 +9,7 @@ Result:
 -----
 
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/result.gif
-    
-    :align: center
+
 
 
 Before blending:
