@@ -46,6 +46,20 @@ After blending and before drawing edges:
 -----
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/before_edge.png
 
+
+GLSL codes:
+
+.. code-block:: c++
+
+	if (isEdge == 1.0){
+		if (result.a < 1.0){
+			FragColor = vec4(result.xyz+0.3,result.a);
+			}
+		else
+			// Dose not draw edge for rings
+			discard;
+
+
 render edges of jewels codes:
 
 .. code-block:: c++
