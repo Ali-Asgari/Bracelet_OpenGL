@@ -25,11 +25,11 @@ GLSL codes:
 .. code-block:: c++
 
 	if (initColor.a<0.99){
-    ambient = 0.80f;
-    float ratio = 1.00 / 1.52;
-    vec3 I = normalize(crntPos - camPos);
-    vec3 R = refract(I,normal, ratio);
-    return vec4((initColor * (diffuse * inten + ambient +specular*10.0 * inten)).rgb,initColor.a);
+        ambient = 0.80f;
+        float ratio = 1.00 / 1.52;
+        vec3 I = normalize(crntPos - camPos);
+        vec3 R = refract(I,normal, ratio);
+        return vec4((initColor * (diffuse * inten + ambient +specular*10.0 * inten)).rgb,initColor.a);
 	}
 
 Enable blending and blend function codes:
