@@ -10,10 +10,36 @@ Result:
 
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/result.gif
 
+
 Before blending:
 -----
 
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/before_blending.png
+
+
+
+After enabling of blending and set alpha value for jewels
+
+glsl codes:
+.. code-block:: glsl
+
+	if (initColor.a<0.99){
+		ambient = 0.80f;
+		float ratio = 1.00 / 1.52;
+		vec3 I = normalize(crntPos - camPos);
+		vec3 R = refract(I,normal, ratio);
+		return vec4((initColor * (diffuse * inten + ambient +specular*10.0 * inten)).rgb,initColor.a);
+	}
+
+enable blending codes:
+
+.. code-block:: c++
+
+
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+
 
 Before drawing edges:
 -----
@@ -24,9 +50,10 @@ After drawing edges:
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/after_edge.png
 
 
-.. code-block:: python
-
-    GUI(net).initializeOpenGL()
+.. code-block:: c++
+    glUniform1f(glGetUniformLocation(shader.ID, "uisEdge"), 1.0);
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0);
 
 
 
