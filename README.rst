@@ -28,6 +28,7 @@ After drawing edges:
     GUI(net).initializeOpenGL()
 
 
-## Usage
-Open solution file in Visual Studio or compile it with terminal.
+Usage
+-----
 
+Open solution file in Visual Studio or compile it with terminal.
