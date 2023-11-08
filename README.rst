@@ -54,12 +54,12 @@ GLSL codes:
 	if (isEdge == 1.0){
 		if (result.a < 1.0){
 			FragColor = vec4(result.xyz+0.3,result.a);
-			}
+		}
 		else{
 			// Dose not draw edge for rings
 			discard;
-            }
         }
+    }
 
 
 render edges of jewels codes:
