@@ -9,7 +9,6 @@ Result:
 -----
 
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/result.gif
-    :width: 362
 
 Before blending:
 -----
@@ -25,8 +24,11 @@ After drawing edges:
 .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/after_edge.png
 
 
-.. code-block:: c++
+.. code-block:: python
+
     GUI(net).initializeOpenGL()
+
+
 
 
 Usage
