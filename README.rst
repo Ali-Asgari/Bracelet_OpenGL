@@ -61,7 +61,7 @@ GLSL codes:
         }
     }
 
-render edges of jewels codes:
+Render edges of jewels codes:
 
 .. code-block:: c++
 
