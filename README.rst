@@ -8,8 +8,13 @@ Utilized Python programs to generate vertecies information include position, col
 Result:
 -----
 
-.. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/result.gif
-    :align: center
+.. raw:: html
+   <h1 align="center">
+   <a href="https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/result.gif"><img width="200" src="image link" alt="text"></a>
+   </h1>
+
+.. .. image:: https://github.com/Ali-Asgari/Bracelet_OpenGL/blob/main/result.gif
+..     :align: center
 
 
 Before blending:
