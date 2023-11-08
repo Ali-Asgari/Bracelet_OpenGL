@@ -25,7 +25,6 @@ GLSL codes:
 .. code-block:: c++
 
 	if (initColor.a<0.99){
-
             ambient = 0.80f;
             float ratio = 1.00 / 1.52;
             vec3 I = normalize(crntPos - camPos);
